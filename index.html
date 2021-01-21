@@ -2,9 +2,37 @@
     <script src="p5.js"></script>
     <script src="p5.dom.min.js"></script>
     <script src="p5.sound.min.js"></script>
-<script src="./p5.play.js"></script>
+    <script src="./p5.play.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyAz_S1s0dCOoYW-S2EW2mL57rRe_iqbV7g",
+    authDomain: "multiplayer-game-fda00.firebaseapp.com",
+    databaseURL: "https://multiplayer-game-fda00-default-rtdb.firebaseio.com",
+    projectId: "multiplayer-game-fda00",
+    storageBucket: "multiplayer-game-fda00.appspot.com",
+    messagingSenderId: "119892410452",
+    appId: "1:119892410452:web:69951a009f651ecff12dc1",
+    measurementId: "G-8TDQR1WBRB"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+  <script src = "js/Game.js" ></script>
+  <script src = "js/Form.js" ></script>
+  <script src = "js/Player.js" ></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8">
+
 
   </head>
   <body>

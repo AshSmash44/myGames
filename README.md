@@ -1,2 +1,2 @@
-# myGames
-All of Ash Smash's games (javascript)
+# p5.play-boilerplate
+Boiler plate for p5.play
